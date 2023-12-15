@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fafafa;
+    }
+
+    .profile {
+      max-width: 600px;
+      margin: 20px auto;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .profile-info {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .profile-header {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      background-color:yellow;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .stat-item {
+      text-align: center;
+    }
+
+    .stat-item h2 {
+      margin: 5px 0;
+      font-size: 1.2rem;
+    }
+
+    .stat-item p {
+      margin: 5px 0;
+      color: #666;
+    }
+
+    .highlights {
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .highlight {
+      flex: 1;
+      text-align: center;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+      margin-right: 10px; 
+    }
+
+    .posts {
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+      margin-bottom: 20px;
+ 
+      flex-wrap: wrap;
+      margin: -5px; 
+    }
+
+    .post {
+      flex: 0 0 calc(33.33% - 10px);
+      margin: 5px;
+    }
+
+    .post img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile">
+    <div class="profile-info">
+      <img class="profile-pic" src="profile-picture.jpg" >
+      <div class="profile-header">
+        <h1>Username</h1>
+        <div class="stats">
+          <div class="stat-item">
+            <h2>100</h2>
+            <p>Posts</p>
+          </div>
+          <div class="stat-item">
+            <h2>10k</h2>
+            <p>Followers</p>
+          </div>
+          <div class="stat-item">
+            <h2>500</h2>
+            <p>Following</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="bio">
+      <p>I am your fashion guide</p>
+      <p>Influencer||Public figure</p>
+    </div>
+  <h2>Explore categories</h2>
+    <div class="highlights">
+      <div class="highlight">
+        <h3>casual</h3>
+        <!-- Add content or thumbnails for Travel Highlight -->
+      </div>
+      <div class="highlight">
+        <h3>Occassion</h3>
+        <!-- Add content or thumbnails for Food Highlight -->
+      </div>
+      <div class="highlight">
+        <h3>Festive</h3>
+        <!-- Add content or thumbnails for Photography Highlight -->
+      </div>
+    </div>
+
+    <div class="posts">
+      <div class="post">
+        <img src="post1.jpg" alt="Post 1">
+      </div>
+      <div class="post">
+        <img src="post2.jpg" alt="Post 2">
+      </div>
+      <div class="post">
+        <img src="post3.jpg" alt="Post 3">
+      </div>
+ <div class="post">
+        <img src="post4.jpg" alt="Post 4">
+      </div>
+      <div class="post">
+        <img src="post5.jpg" alt="Post 5">
+      </div>
+      <div class="post">
+        <img src="post6.jpg" alt="Post 6">
+      </div>
+      
+    </div>
+  </div>
+</body>
+</html>
+
